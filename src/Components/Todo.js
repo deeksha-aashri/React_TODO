@@ -38,10 +38,12 @@ export default class Todo extends Component {
    render() {
     return (
      <div className="main-frame">
+      <div className='Navbar'>
         <input type="text"
         value= {this.state.currTask}
         onChange= {this.handleChange}/>
-         <button onClick={this.handleSubmit}>Submit</button>
+         <button className="Submit" onClick={this.handleSubmit}>Submit</button>
+         </div>
         {/* //Note that we are not calling handlesubmit func here as there is no() */ }
        {/* Use curly braces whenever you need to write js in jsx  as following*/}
         {

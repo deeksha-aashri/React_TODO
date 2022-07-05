@@ -41,9 +41,25 @@
    background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
    width: 70vw;
    margin-top: 4rem;
-   margin-left: 4rem;
-   margin-right: 4rem;
+   margin-left: 15rem;
+   margin-right: 15rem;
 }
+
 li{
   list-style: none;
+  display: flex;
+  justify-content: space-around;
+  width: 70%;
+  flex-wrap: wrap;
+}
+li>button{
+  
+}
+input,.Submit{
+  margin: 1rem;
+}
+.Navbar{
+  display: flex;
+  justify-content: center;
+  border: 0.2rem solid #282c34;
 }
