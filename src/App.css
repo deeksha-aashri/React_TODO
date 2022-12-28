@@ -52,9 +52,7 @@ li{
   width: 70%;
   flex-wrap: wrap;
 }
-li>button{
-  
-}
+
 input,.Submit{
   margin: 1rem;
 }
